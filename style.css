@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -56,10 +57,14 @@ header nav .navbarBox ul li a {
     display: flex;
     flex-wrap: wrap;
     align-self: center;
+    width: 100%;
+    height: 100%;
 }
 
 .ComedySection .posterSection .moviePoster {
+    margin: 25px;
     flex-grow: 1;
+    flex-basis: 150px;
 }
 
 .ActionSection h5 {
@@ -73,10 +78,15 @@ header nav .navbarBox ul li a {
 .ActionSection .posterSection {
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
+    width: 100%;
+    height: 100%;
 }
 
 .ActionSection .posterSection .moviePoster {
+    margin: 25px;
     flex-grow: 1;
+    flex-basis: 150px;
 }
 
 .HorrorSection h5 {
@@ -90,18 +100,21 @@ header nav .navbarBox ul li a {
 .HorrorSection .posterSection {
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
+    width: 100%;
+    height: 100%;
 }
 
 .HorrorSection .posterSection .moviePoster {
+    margin: 25px;
     flex-grow: 1;
+    flex-basis: 150px;
 }
 
 section img {
-    height: 480px;
-    width: 200px;
-    margin-right: 30px;
-    margin-bottom: 20px;
-    margin-left: 1%;
+    display:block;
+    width: 100%;
+    height: 100%;
 }
 
 /*----------------------MEDIA QUERIES-------------------------*/
